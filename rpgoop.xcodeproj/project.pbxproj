@@ -12,6 +12,11 @@
 		840A6BF91CE0E57D005F6660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A6BF71CE0E57D005F6660 /* Main.storyboard */; };
 		840A6BFB1CE0E57D005F6660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840A6BFA1CE0E57D005F6660 /* Assets.xcassets */; };
 		840A6BFE1CE0E57D005F6660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840A6BFC1CE0E57D005F6660 /* LaunchScreen.storyboard */; };
+		840A6C061CE144E0005F6660 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A6C051CE144E0005F6660 /* Character.swift */; };
+		840A6C081CE1461C005F6660 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A6C071CE1461C005F6660 /* Player.swift */; };
+		840A6C0A1CE245FE005F6660 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A6C091CE245FE005F6660 /* Enemy.swift */; };
+		840A6C0C1CE2476A005F6660 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A6C0B1CE2476A005F6660 /* Kimara.swift */; };
+		840A6C0E1CE24896005F6660 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840A6C0D1CE24896005F6660 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		840A6BFA1CE0E57D005F6660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840A6BFD1CE0E57D005F6660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840A6BFF1CE0E57D005F6660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840A6C051CE144E0005F6660 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		840A6C071CE1461C005F6660 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		840A6C091CE245FE005F6660 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		840A6C0B1CE2476A005F6660 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		840A6C0D1CE24896005F6660 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				840A6BFA1CE0E57D005F6660 /* Assets.xcassets */,
 				840A6BFC1CE0E57D005F6660 /* LaunchScreen.storyboard */,
 				840A6BFF1CE0E57D005F6660 /* Info.plist */,
+				840A6C051CE144E0005F6660 /* Character.swift */,
+				840A6C071CE1461C005F6660 /* Player.swift */,
+				840A6C091CE245FE005F6660 /* Enemy.swift */,
+				840A6C0B1CE2476A005F6660 /* Kimara.swift */,
+				840A6C0D1CE24896005F6660 /* DevilWizard.swift */,
 			);
 			path = rpgoop;
 			sourceTree = "<group>";
@@ -135,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840A6C081CE1461C005F6660 /* Player.swift in Sources */,
+				840A6C0A1CE245FE005F6660 /* Enemy.swift in Sources */,
+				840A6C0E1CE24896005F6660 /* DevilWizard.swift in Sources */,
+				840A6C0C1CE2476A005F6660 /* Kimara.swift in Sources */,
+				840A6C061CE144E0005F6660 /* Character.swift in Sources */,
 				840A6BF61CE0E57D005F6660 /* ViewController.swift in Sources */,
 				840A6BF41CE0E57D005F6660 /* AppDelegate.swift in Sources */,
 			);
