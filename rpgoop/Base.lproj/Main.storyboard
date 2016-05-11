@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="cLm-9E-t8a">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="cLm-9E-t8a">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Rw-HX-t1s" userLabel="chestBtn">
@@ -45,7 +45,7 @@
                                     <action selector="onChestTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8wR-ff-huJ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="6CZ-r9-U7Z">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="6CZ-r9-U7Z">
                                 <rect key="frame" x="0.0" y="504" width="600" height="96"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="96" id="DW7-aa-284"/>
@@ -57,7 +57,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9g-p3-Q9J" userLabel="enemyHpLbl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j9g-p3-Q9J" userLabel="enemyHpLbl">
                                 <rect key="frame" x="339" y="376" width="64" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="dFq-21-r6q"/>
@@ -98,7 +98,7 @@
                                 <color key="textColor" red="0.96702724358974357" green="0.94577936107718541" blue="0.072774138194006369" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HG8-Bi-WLP" userLabel="playerHpLbl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 HP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HG8-Bi-WLP" userLabel="playerHpLbl">
                                 <rect key="frame" x="174" y="376" width="64" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="baJ-mm-sdy"/>
@@ -174,7 +174,6 @@
                         <outlet property="chestBtn" destination="6Rw-HX-t1s" id="pEN-ZS-4VA"/>
                         <outlet property="enemyHpLbl" destination="j9g-p3-Q9J" id="OER-pe-UKT"/>
                         <outlet property="enemyImg" destination="OxN-fL-azj" id="NhX-xd-qYz"/>
-                        <outlet property="playHpLbl" destination="rUx-3B-bhR" id="w3u-kF-cI9"/>
                         <outlet property="playerHpLbl" destination="HG8-Bi-WLP" id="zjK-8m-jfZ"/>
                         <outlet property="printLbl" destination="chW-wp-gfX" id="zYh-ks-KnP"/>
                     </connections>
